@@ -1,0 +1,39 @@
+D:\UNITY(production Visual studio) Prgs(by Manish_P)\E_AND_G\E_AND_G\bin\E_AND_G.dll
+D:\UNITY(production Visual studio) Prgs(by Manish_P)\E_AND_G\E_AND_G\bin\E_AND_G.pdb
+D:\UNITY(production Visual studio) Prgs(by Manish_P)\E_AND_G\E_AND_G\obj\Debug\E_AND_G.dll
+D:\UNITY(production Visual studio) Prgs(by Manish_P)\E_AND_G\E_AND_G\obj\Debug\E_AND_G.pdb
+D:\MANISH_DEV\Manish_LAB-1\PROJECT\E_AND_G\E_AND_G\bin\E_AND_G.dll
+D:\MANISH_DEV\Manish_LAB-1\PROJECT\E_AND_G\E_AND_G\bin\E_AND_G.pdb
+D:\MANISH_DEV\Manish_LAB-1\PROJECT\E_AND_G\E_AND_G\obj\Debug\E_AND_G.dll
+D:\MANISH_DEV\Manish_LAB-1\PROJECT\E_AND_G\E_AND_G\obj\Debug\E_AND_G.pdb
+D:\MANISH_DEV\Manish_LAB-1\PROJECT\E_AND_G\E_AND_G\obj\Debug\E_AND_G.csprojResolveAssemblyReference.cache
+C:\Manish\Project\E_AND_G\E_AND_G\bin\E_AND_G.dll
+C:\Manish\Project\E_AND_G\E_AND_G\bin\E_AND_G.pdb
+C:\Manish\Project\E_AND_G\E_AND_G\obj\Debug\E_AND_G.csprojResolveAssemblyReference.cache
+C:\Manish\Project\E_AND_G\E_AND_G\obj\Debug\E_AND_G.dll
+C:\Manish\Project\E_AND_G\E_AND_G\obj\Debug\E_AND_G.pdb
+D:\TY_MANISH(UNITY)\HCTH\E&G_PROJECT\E_AND_G\E_AND_G\bin\E_AND_G.dll
+D:\TY_MANISH(UNITY)\HCTH\E&G_PROJECT\E_AND_G\E_AND_G\bin\E_AND_G.pdb
+D:\TY_MANISH(UNITY)\HCTH\E&G_PROJECT\E_AND_G\E_AND_G\obj\Debug\E_AND_G.csprojResolveAssemblyReference.cache
+D:\TY_MANISH(UNITY)\HCTH\E&G_PROJECT\E_AND_G\E_AND_G\obj\Debug\E_AND_G.dll
+D:\TY_MANISH(UNITY)\HCTH\E&G_PROJECT\E_AND_G\E_AND_G\obj\Debug\E_AND_G.pdb
+C:\Manish\Project\FinalDraft\E_AND_G\E_AND_G\bin\E_AND_G.dll
+C:\Manish\Project\FinalDraft\E_AND_G\E_AND_G\bin\E_AND_G.pdb
+C:\Manish\Project\FinalDraft\E_AND_G\E_AND_G\obj\Debug\E_AND_G.csprojResolveAssemblyReference.cache
+C:\Manish\Project\FinalDraft\E_AND_G\E_AND_G\obj\Debug\E_AND_G.dll
+C:\Manish\Project\FinalDraft\E_AND_G\E_AND_G\obj\Debug\E_AND_G.pdb
+E:\Local Disk F\EG\FINALPROJECT(EG)\FinalDraft\E_AND_G\E_AND_G\bin\E_AND_G.dll
+E:\Local Disk F\EG\FINALPROJECT(EG)\FinalDraft\E_AND_G\E_AND_G\bin\E_AND_G.pdb
+E:\Local Disk F\EG\FINALPROJECT(EG)\FinalDraft\E_AND_G\E_AND_G\obj\Debug\E_AND_G.csprojResolveAssemblyReference.cache
+E:\Local Disk F\EG\FINALPROJECT(EG)\FinalDraft\E_AND_G\E_AND_G\obj\Debug\E_AND_G.dll
+E:\Local Disk F\EG\FINALPROJECT(EG)\FinalDraft\E_AND_G\E_AND_G\obj\Debug\E_AND_G.pdb
+C:\Manish\Project\NEWFINALPROJECT(EG)\FINALPROJECT(EG)\FinalDraft\E_AND_G\E_AND_G\bin\E_AND_G.dll
+C:\Manish\Project\NEWFINALPROJECT(EG)\FINALPROJECT(EG)\FinalDraft\E_AND_G\E_AND_G\bin\E_AND_G.pdb
+C:\Manish\Project\NEWFINALPROJECT(EG)\FINALPROJECT(EG)\FinalDraft\E_AND_G\E_AND_G\obj\Debug\E_AND_G.csprojResolveAssemblyReference.cache
+C:\Manish\Project\NEWFINALPROJECT(EG)\FINALPROJECT(EG)\FinalDraft\E_AND_G\E_AND_G\obj\Debug\E_AND_G.dll
+C:\Manish\Project\NEWFINALPROJECT(EG)\FINALPROJECT(EG)\FinalDraft\E_AND_G\E_AND_G\obj\Debug\E_AND_G.pdb
+C:\Manish\Project\NEWFINALPROJECT(EG)\FINALPROJECT(EG)\Final(EG)(MP09Production)\E_AND_G\E_AND_G\bin\E_AND_G.dll
+C:\Manish\Project\NEWFINALPROJECT(EG)\FINALPROJECT(EG)\Final(EG)(MP09Production)\E_AND_G\E_AND_G\bin\E_AND_G.pdb
+C:\Manish\Project\NEWFINALPROJECT(EG)\FINALPROJECT(EG)\Final(EG)(MP09Production)\E_AND_G\E_AND_G\obj\Debug\E_AND_G.csprojResolveAssemblyReference.cache
+C:\Manish\Project\NEWFINALPROJECT(EG)\FINALPROJECT(EG)\Final(EG)(MP09Production)\E_AND_G\E_AND_G\obj\Debug\E_AND_G.dll
+C:\Manish\Project\NEWFINALPROJECT(EG)\FINALPROJECT(EG)\Final(EG)(MP09Production)\E_AND_G\E_AND_G\obj\Debug\E_AND_G.pdb

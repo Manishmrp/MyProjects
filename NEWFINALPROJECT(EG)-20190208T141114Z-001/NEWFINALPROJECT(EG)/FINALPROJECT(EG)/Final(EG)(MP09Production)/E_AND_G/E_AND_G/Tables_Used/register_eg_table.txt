@@ -1,0 +1,12 @@
+create table register_eg
+(
+f_name varchar2(20),
+l_name varchar2(20),
+gender varchar2(20),
+dob varchar2(25),
+email varchar2(50),
+phone_no number(12),
+password varchar2(20),
+s_answer varchar2(70),
+s_question varchar2(70)
+);

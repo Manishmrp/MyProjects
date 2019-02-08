@@ -1,0 +1,100 @@
+﻿
+body
+{
+    background-image:url(images/monument.jpg);
+    background-position:center;
+}
+marquee
+{
+    font-family:Arial;
+    font-size:large;
+    color:White;
+}
+#div_header
+{
+   background-color:#20BEC9;
+}
+h1
+{
+    color:White;
+    background-color:#20BEC9;
+    font-family:Arial;
+    font-style:normal;
+}
+#div_center
+{
+    background-color:White;
+    width:40%;
+    height:369px;
+    border-radius:6px;
+    opacity:0.9;
+}
+.btn_sign_css:hover
+{
+    background-color:White;
+    color:#55BEC5;
+    border-color:#55BEC5;
+    border:solid 2px;
+    width:60px;
+    height:26px;
+}
+.btn_sign_css
+{
+    background-color:#20BEC9;
+    color:White;
+    border:2px solid #55BEC5;
+}
+#div_header
+{
+   background-color:White;
+   border-radius:56px;
+}
+.css_logo
+{
+    border-radius:56px;
+    border:Solid 5px White;
+    transition:transform 300ms ease-in-out;
+    
+        animation:rtte 4s linear infinite;
+    }
+    @keyframes rtte
+    {
+        from:{transform: rotate(0deg);}
+        to {transform:rotate(360deg);}
+    }
+
+.css_logo:hover
+{
+    border-radius:56px;
+    border:Solid 5px White;
+    transition:transform 300ms ease-in-out;
+    
+        animation:rtte1 0.2s linear infinite;
+    }
+    @keyframes rtte1
+    {
+        from:{transform: rotate(0deg);}
+        to {transform:rotate(360deg);}
+    }
+    
+
+.css_logo2
+{
+    border-radius:56px;
+    border:Solid 5px White;
+    
+}
+.css_logo2:hover
+{
+    border-radius:56px;
+    border:Solid 5px White;
+    
+}
+input
+{
+    border:solid 1px;
+    border-color:Silver;
+    font-size:small;
+    border-radius:6px;
+    height:28px;
+}

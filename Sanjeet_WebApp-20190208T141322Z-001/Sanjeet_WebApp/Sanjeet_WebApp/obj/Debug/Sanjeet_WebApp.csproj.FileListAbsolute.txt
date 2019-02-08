@@ -1,0 +1,6 @@
+C:\Manish\Project\Sanjeet_WebApp\Sanjeet_WebApp\bin\Sanjeet_WebApp.dll
+C:\Manish\Project\Sanjeet_WebApp\Sanjeet_WebApp\bin\Sanjeet_WebApp.pdb
+C:\Manish\Project\Sanjeet_WebApp\Sanjeet_WebApp\obj\Debug\Sanjeet_WebApp.dll
+C:\Manish\Project\Sanjeet_WebApp\Sanjeet_WebApp\obj\Debug\Sanjeet_WebApp.pdb
+C:\Manish\Project\Sanjeet_WebApp\Sanjeet_WebApp\bin\itextsharp.dll
+C:\Manish\Project\Sanjeet_WebApp\Sanjeet_WebApp\obj\Debug\Sanjeet_WebApp.csprojResolveAssemblyReference.cache

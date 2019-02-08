@@ -1,0 +1,14 @@
+create table details_eg
+(
+elect_gadgets varchar2(40),
+brand_name varchar2(40),
+model_name varchar2(40),
+warranty_status varchar2(25),
+problem varchar2(50),
+describe_problem varchar2(70),
+address varchar2(70),
+zipcode number(10),
+phone_no number(12),
+landmark varchar2(40),
+email varchar2(50)
+);

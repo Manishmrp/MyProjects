@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#ffb802"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffb802"
+    tools:context=".Main3Activity">
+<ImageView
+    android:layout_width="360dp"
+    android:layout_height="670dp"
+    android:layout_gravity="center"
+    android:background="@drawable/splash_screen"/>
+    <Button
+        android:id="@+id/btn_callnow"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_call"
+        android:textColor="#ffffff"
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="CALL NOW" />
+</LinearLayout>
+</ScrollView>

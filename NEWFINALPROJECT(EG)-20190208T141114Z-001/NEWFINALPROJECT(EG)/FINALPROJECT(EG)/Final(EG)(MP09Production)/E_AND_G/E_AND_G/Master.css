@@ -1,0 +1,144 @@
+﻿
+.css_logo
+{
+    border-radius:56px;
+    border:Solid 5px White;
+}
+.css_logo2
+{
+    border-radius:56px;
+    border:Solid 5px White;
+}
+body
+{
+    background-color:#0899AC;
+    background-position:center;
+}
+.css_head
+{
+    background-color:White;
+    border-radius:20px;
+}
+.css_menu
+{
+    background-color:White;
+    border-radius:20px;
+    height:38px;
+    margin:5px;
+    padding-bottom:8px;
+    padding-top:2px;
+}
+.c_home:hover
+{
+    background-color:White;
+    border-radius:6px;
+    color:#20BEC9;
+    font-size:medium;
+    font-family:Arial;
+    border-color:#20BEC9;
+    padding-bottom:1px;
+    padding-top:9px;
+
+}
+.c_abt:hover
+{
+    
+    background-color:White;
+    border-radius:6px;
+    color:#20BEC9;
+    font-size:medium;
+    font-family:Arial;
+    border-color:#20BEC9;
+
+    padding-bottom:1px;
+    padding-top:9px;
+}
+.c_contact:hover
+{
+    
+    background-color:White;
+    border-radius:6px;
+    color:#20BEC9;
+    font-size:medium;
+    font-family:Arial;
+    border-color:#20BEC9;
+    padding-bottom:1px;
+    padding-top:9px;
+}
+.c_contact
+{
+    
+    height:35px;
+    background-color:#20BEC9;
+    border-radius:6px;
+    color:White;
+    font-size:medium;
+    font-family:Arial;
+    border-color:#20BEC9;
+    padding-bottom:1px;
+    padding-top:9px;
+    border:solid 2px White;
+
+}
+.c_home
+{
+    height:35px;
+    background-color:#20BEC9;
+    border-radius:6px;
+    color:White;
+    font-size:medium;
+    font-family:Arial;
+    border-color:#20BEC9;
+    padding-bottom:1px;
+    padding-top:9px;
+    border:solid 2px White;
+
+}
+.c_abt
+{
+    
+    height:35px;
+    background-color:#20BEC9;
+    border-radius:6px;
+    color:White;
+    font-size:medium;
+    font-family:Arial;
+    padding-bottom:0px;
+    padding-top:9px;
+    border:solid 2px White;
+}
+.c_menu
+{
+    background-color:White;
+    border-radius:20px;
+    border:solid 2px #0899AC;
+}
+.c_sthead
+{
+    background-color:#20BEC9;
+    border-radius:1px;
+    color:White;
+    top: 207px;
+    left: 111px;
+    padding:7px;
+}
+.c_sthead:hover
+{
+    background-color:white;
+    border-radius:1px;
+    color:#20BEC9;
+    top: 207px;
+    left: 111px;
+    width: 97px;
+    padding:7px;
+    border-color:#20BEC9;
+}
+hr
+{
+    color:#20BEC9;
+}
+.c_option
+{
+    padding:7px;
+    border-radius:2px;
+}

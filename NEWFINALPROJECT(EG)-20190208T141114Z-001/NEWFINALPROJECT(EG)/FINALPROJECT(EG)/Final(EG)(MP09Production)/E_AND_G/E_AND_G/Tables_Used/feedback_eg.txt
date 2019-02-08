@@ -1,0 +1,6 @@
+create table feedback_eg
+(
+feed varchar2(100),
+email varchar2(50),
+date_time varchar2(60)
+);

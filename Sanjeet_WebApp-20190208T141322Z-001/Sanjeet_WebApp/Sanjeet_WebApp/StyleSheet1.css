@@ -1,0 +1,109 @@
+﻿#divShow
+        {
+            padding:10px;
+            background-color:white;
+            font-family:Consolas;
+            border-radius:10px;
+            width:80%;
+            box-shadow:0px 0px 10px 0px grey;
+        }
+ .txtEntry
+ {
+     padding:5px;
+     border-radius:5px;
+     border:solid 1px grey;
+     font-family:Arial;
+     font-size:small;
+     color:brown;
+     width:250px;
+ }
+ .ddlQty
+ {
+     padding:5px;
+     border-radius:5px;
+     border:solid 1px grey;
+     font-family:Arial;
+     font-size:small;
+     color:brown;
+ }
+ .btnBlue
+ {
+     padding:4px;
+     font-family:Arial;
+     border-radius:5px;
+     background-color:#20bec9;
+     color:White;
+     border:solid 2px teal;
+     width:50px;
+ } 
+ .btnBlue:hover
+ {
+     padding:4px;
+     font-family:Arial;
+     border-radius:5px;
+     background-color:white;
+     color:Teal;
+     border:solid 2px teal;
+     width:50px;
+ } 
+ .btnYellow
+ {
+     background-color:#DC9D00;
+     padding:4px;
+     font-family:Arial;
+     border-radius:5px;
+     color:White;
+     border:solid 2px #996600;
+     width:74px;
+ }
+  .btnYellow:hover
+ {
+     background-color:white;
+     padding:4px;
+     font-family:Arial;
+     border-radius:5px;
+     color:#996600;
+     border:solid 2px #996600;
+     width:74px;
+ }
+ .btnRed
+ {
+     background-color:#FF5050;
+     padding:4px;
+     font-family:Arial;
+     border-radius:5px;
+     color:White;
+     border:solid 2px red;
+     width:90px;
+ }
+  .btnRed:hover
+ {
+     background-color:white;
+     padding:4px;
+     font-family:Arial;
+     border-radius:5px;
+     color:red;
+     border:solid 2px red;
+     width:90px;
+ }
+ .btnPurple
+ {
+     background-color:#9900FF;
+     padding:4px;
+     font-family:Arial;
+     border-radius:5px;
+     color:White;
+     border:solid 2px purple;
+     width:90px;
+ }
+  .btnPurple:hover
+ {
+     background-color:white;
+     padding:4px;
+     font-family:Arial;
+     border-radius:5px;
+     color:purple;
+     border:solid 2px purple;
+     width:90px;
+ }
+ 

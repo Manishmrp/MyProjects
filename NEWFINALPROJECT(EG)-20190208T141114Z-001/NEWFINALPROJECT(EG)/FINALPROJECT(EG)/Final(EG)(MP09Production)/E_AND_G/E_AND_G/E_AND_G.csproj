@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B8806CDC-CB1B-4618-B6AD-C9F00306C705}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>E_AND_G</RootNamespace>
+    <AssemblyName>E_AND_G</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=5.5.10.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Electronics.aspx" />
+    <Content Include="Elect_page2.aspx" />
+    <Content Include="forg.aspx" />
+    <Content Include="forg1.aspx" />
+    <Content Include="Forgot.aspx" />
+    <Content Include="form1.css" />
+    <Content Include="Gadget_Page2.aspx" />
+    <Content Include="Help\Capture.PNG" />
+    <Content Include="Help\Capture2.PNG" />
+    <Content Include="Help\Capture3.PNG" />
+    <Content Include="Help\Capture4.PNG" />
+    <Content Include="Help\Capture5.PNG" />
+    <Content Include="Home.aspx" />
+    <Content Include="icons\amplifier.png" />
+    <Content Include="icons\back2.png" />
+    <Content Include="icons\back_btn.png" />
+    <Content Include="icons\bluetooth.png" />
+    <Content Include="icons\camcorder.jpg" />
+    <Content Include="icons\camera.png" />
+    <Content Include="icons\cctv.png" />
+    <Content Include="icons\computer.png" />
+    <Content Include="icons\food %281%29.png" />
+    <Content Include="icons\home_icon.png" />
+    <Content Include="icons\home_theater.png" />
+    <Content Include="icons\icon-ac2.png" />
+    <Content Include="icons\icon-red-heat.png" />
+    <Content Include="icons\icon-refrigerator.png" />
+    <Content Include="icons\icon_ac.png" />
+    <Content Include="icons\icon_cooler.png" />
+    <Content Include="icons\icon_cpu.jpg" />
+    <Content Include="icons\icon_fridge.jpg" />
+    <Content Include="icons\icon_generator.png" />
+    <Content Include="icons\icon_laptop.png" />
+    <Content Include="icons\icon_mobile.png" />
+    <Content Include="icons\icon_oven.png" />
+    <Content Include="icons\icon_printer2.jpg" />
+    <Content Include="icons\icon_tab.png" />
+    <Content Include="icons\icon_tv.png" />
+    <Content Include="icons\icon_washing2.png" />
+    <Content Include="icons\induction_cooker.png" />
+    <Content Include="icons\inverter-icon.png" />
+    <Content Include="icons\iron.png" />
+    <Content Include="icons\lamination.png" />
+    <Content Include="icons\monitor.png" />
+    <Content Include="icons\pc_icon.png" />
+    <Content Include="icons\projector.png" />
+    <Content Include="icons\router.png" />
+    <Content Include="icons\stb.png" />
+    <Content Include="icons\tv.png" />
+    <Content Include="icons\xerox.jpg" />
+    <Content Include="images\260561-electronics.png" />
+    <Content Include="images\blur.jpg" />
+    <Content Include="images\eg_hd-pic.png" />
+    <Content Include="images\eg_heading.png" />
+    <Content Include="images\eg_heading2.png" />
+    <Content Include="images\electronics_icon.png" />
+    <Content Include="images\eg_logo %281%29.jpg" />
+    <Content Include="images\eg_logo %282%29.jpg" />
+    <Content Include="images\heading_eg.png" />
+    <Content Include="images\monument.jpg" />
+    <Content Include="images\set.png" />
+    <Content Include="logo_aoc.jpg" />
+    <Content Include="Master.css" />
+    <Content Include="ref_icon\blank.png" />
+    <Content Include="ref_icon\logo_acer.png" />
+    <Content Include="ref_icon\logo_ahuja.png" />
+    <Content Include="ref_icon\logo_airtel.png" />
+    <Content Include="ref_icon\logo_amaron.jpg" />
+    <Content Include="ref_icon\logo_aoc.jpg" />
+    <Content Include="ref_icon\logo_aosmith.jpg" />
+    <Content Include="ref_icon\logo_apple.png" />
+    <Content Include="ref_icon\logo_bajaj.png" />
+    <Content Include="ref_icon\logo_bluestar.jpg" />
+    <Content Include="ref_icon\logo_bpl.jpg" />
+    <Content Include="ref_icon\logo_canon.jpg" />
+    <Content Include="ref_icon\logo_circle.png" />
+    <Content Include="ref_icon\logo_citron.jpg" />
+    <Content Include="ref_icon\logo_cpplus.png" />
+    <Content Include="ref_icon\logo_crompton.jpg" />
+    <Content Include="ref_icon\logo_daikin.png" />
+    <Content Include="ref_icon\logo_dell.jpg" />
+    <Content Include="ref_icon\logo_dishtv.png" />
+    <Content Include="ref_icon\logo_dlink.png" />
+    <Content Include="ref_icon\logo_epson.png" />
+    <Content Include="ref_icon\logo_godrej.gif" />
+    <Content Include="ref_icon\logo_godrej2.jpg" />
+    <Content Include="ref_icon\logo_haier2.png" />
+    <Content Include="ref_icon\logo_havells.jpeg" />
+    <Content Include="ref_icon\logo_hitachi.jpg" />
+    <Content Include="ref_icon\logo_hitachi2.png" />
+    <Content Include="ref_icon\logo_hp.png" />
+    <Content Include="ref_icon\logo_iball.png" />
+    <Content Include="ref_icon\logo_intel.png" />
+    <Content Include="ref_icon\logo_intex.png" />
+    <Content Include="ref_icon\logo_intex2.png" />
+    <Content Include="ref_icon\logo_jbl.png" />
+    <Content Include="ref_icon\logo_kelvinator.jpg" />
+    <Content Include="ref_icon\logo_kenstar.png" />
+    <Content Include="ref_icon\logo_lava.jpg" />
+    <Content Include="ref_icon\logo_lenovo.png" />
+    <Content Include="ref_icon\logo_lg.jpg" />
+    <Content Include="ref_icon\logo_lloyd.jpeg" />
+    <Content Include="ref_icon\logo_luminous.jpg" />
+    <Content Include="ref_icon\logo_maxxlite.jpg" />
+    <Content Include="ref_icon\logo_mi.png" />
+    <Content Include="ref_icon\logo_micromax.jpg" />
+    <Content Include="ref_icon\logo_microtek.jpg" />
+    <Content Include="ref_icon\logo_mitashi.png" />
+    <Content Include="ref_icon\logo_motorola.png" />
+    <Content Include="ref_icon\logo_netgear.png" />
+    <Content Include="ref_icon\logo_nikon.png" />
+    <Content Include="ref_icon\logo_nokia.png" />
+    <Content Include="ref_icon\logo_onida.png" />
+    <Content Include="ref_icon\logo_oppo.png" />
+    <Content Include="ref_icon\logo_orient.png" />
+    <Content Include="ref_icon\logo_panasonic.jpg" />
+    <Content Include="ref_icon\logo_philips.png" />
+    <Content Include="ref_icon\logo_pigeon.png" />
+    <Content Include="ref_icon\logo_portronic.jpg" />
+    <Content Include="ref_icon\logo_prestige.png" />
+    <Content Include="ref_icon\logo_racold.jpg" />
+    <Content Include="ref_icon\logo_samsung.png" />
+    <Content Include="ref_icon\logo_sony.png" />
+    <Content Include="ref_icon\logo_symphony.png" />
+    <Content Include="ref_icon\logo_tatasky.jpg" />
+    <Content Include="ref_icon\logo_texet.png" />
+    <Content Include="ref_icon\logo_toshiba.png" />
+    <Content Include="ref_icon\logo_tplink.png" />
+    <Content Include="ref_icon\logo_trp.png" />
+    <Content Include="ref_icon\logo_usha.png" />
+    <Content Include="ref_icon\logo_venus.jpeg" />
+    <Content Include="ref_icon\logo_vguard.png" />
+    <Content Include="ref_icon\logo_videocon.png" />
+    <Content Include="ref_icon\logo_vivo.png" />
+    <Content Include="ref_icon\logo_whirlpool.jpg" />
+    <Content Include="Registration.aspx" />
+    <Content Include="Register.css" />
+    <Content Include="Reset_Pass.aspx" />
+    <Content Include="Sign_in.aspx" />
+    <Content Include="Sign_in.css" />
+    <Content Include="Tables_Used\details_eg_table.txt" />
+    <Content Include="Tables_Used\feedback_eg.txt" />
+    <Content Include="Tables_Used\register_eg_table.txt" />
+    <Content Include="TV_icon\blank.png" />
+    <Content Include="TV_icon\logo_aoc.jpg" />
+    <Content Include="TV_icon\logo_bpl.jpg" />
+    <Content Include="TV_icon\logo_haier2.png" />
+    <Content Include="TV_icon\logo_hitachi.jpg" />
+    <Content Include="TV_icon\logo_hitachi2.png" />
+    <Content Include="TV_icon\logo_intex.png" />
+    <Content Include="TV_icon\logo_intex2.png" />
+    <Content Include="TV_icon\logo_lg.jpg" />
+    <Content Include="TV_icon\logo_lloyd.jpeg" />
+    <Content Include="TV_icon\logo_micromax.jpg" />
+    <Content Include="TV_icon\logo_mitashi.png" />
+    <Content Include="TV_icon\logo_onida.png" />
+    <Content Include="TV_icon\logo_panasonic.jpg" />
+    <Content Include="TV_icon\logo_philips.png" />
+    <Content Include="TV_icon\logo_samsung.png" />
+    <Content Include="TV_icon\logo_sony.png" />
+    <Content Include="TV_icon\logo_videocon.png" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="Web_About.aspx" />
+    <Content Include="Web_Account.aspx" />
+    <Content Include="Web_Contact.aspx" />
+    <Content Include="Web_Details.aspx" />
+    <Content Include="Web_Edit1.aspx" />
+    <Content Include="Web_Feedback.aspx" />
+    <Content Include="Web_History.aspx" />
+    <Content Include="Web_Pages\Gadgets.aspx" />
+    <Content Include="Web_Pages\Sign_in.aspx" />
+    <Content Include="Web_Pages\Web_AC.aspx" />
+    <Content Include="Web_Pages\Web_Amplifier.aspx" />
+    <Content Include="Web_Pages\Web_Blender.aspx" />
+    <Content Include="Web_Pages\Web_Bluetooth.aspx" />
+    <Content Include="Web_Pages\Web_Camera.aspx" />
+    <Content Include="Web_Pages\Web_CCTV.aspx" />
+    <Content Include="Web_Pages\Web_Cooker.aspx" />
+    <Content Include="Web_Pages\Web_Cooler.aspx" />
+    <Content Include="Web_Pages\Web_CPU.aspx" />
+    <Content Include="Web_Pages\Web_Desktop.aspx" />
+    <Content Include="Web_Pages\Web_Edit.aspx" />
+    <Content Include="Web_Pages\Web_Heater.aspx" />
+    <Content Include="Web_Pages\Web_Help.aspx" />
+    <Content Include="Web_Pages\Web_HomeTheater.aspx" />
+    <Content Include="Web_Pages\Web_Inverter.aspx" />
+    <Content Include="Web_Pages\Web_Iron.aspx" />
+    <Content Include="Web_Pages\Web_Lamination.aspx" />
+    <Content Include="Web_Pages\Web_Laptop.aspx" />
+    <Content Include="Web_Pages\Web_Machine.aspx" />
+    <Content Include="Web_Pages\Web_Mobile.aspx" />
+    <Content Include="Web_Pages\Web_Monitor.aspx" />
+    <Content Include="Web_Pages\Web_Oven.aspx" />
+    <Content Include="Web_Pages\Web_Printer.aspx" />
+    <Content Include="Web_Pages\Web_Projector.aspx" />
+    <Content Include="Web_Pages\Web_Refrigerator.aspx" />
+    <Content Include="Web_Pages\Web_Router.aspx" />
+    <Content Include="Web_Pages\Web_STB.aspx" />
+    <Content Include="Web_Pages\Web_Tab.aspx" />
+    <Content Include="Web_Pages\Web_TV.aspx" />
+    <Content Include="Web_Pages\Web_Xerox.aspx" />
+    <Content Include="Web_Report.aspx" />
+    <Content Include="Web_Service.aspx" />
+    <Content Include="Web_SiteMap.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Electronics.aspx.cs">
+      <DependentUpon>Electronics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Electronics.aspx.designer.cs">
+      <DependentUpon>Electronics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Elect_page2.aspx.cs">
+      <DependentUpon>Elect_page2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Elect_page2.aspx.designer.cs">
+      <DependentUpon>Elect_page2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forg.aspx.cs">
+      <DependentUpon>forg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forg.aspx.designer.cs">
+      <DependentUpon>forg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forg1.aspx.cs">
+      <DependentUpon>forg1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forg1.aspx.designer.cs">
+      <DependentUpon>forg1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forgot.aspx.cs">
+      <DependentUpon>Forgot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forgot.aspx.designer.cs">
+      <DependentUpon>Forgot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gadget_Page2.aspx.cs">
+      <DependentUpon>Gadget_Page2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gadget_Page2.aspx.designer.cs">
+      <DependentUpon>Gadget_Page2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reset_Pass.aspx.cs">
+      <DependentUpon>Reset_Pass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reset_Pass.aspx.designer.cs">
+      <DependentUpon>Reset_Pass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sign_in.aspx.cs">
+      <DependentUpon>Sign_in.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sign_in.aspx.designer.cs">
+      <DependentUpon>Sign_in.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_About.aspx.cs">
+      <DependentUpon>Web_About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_About.aspx.designer.cs">
+      <DependentUpon>Web_About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Account.aspx.cs">
+      <DependentUpon>Web_Account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Account.aspx.designer.cs">
+      <DependentUpon>Web_Account.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Contact.aspx.cs">
+      <DependentUpon>Web_Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Contact.aspx.designer.cs">
+      <DependentUpon>Web_Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Details.aspx.cs">
+      <DependentUpon>Web_Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Details.aspx.designer.cs">
+      <DependentUpon>Web_Details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Edit1.aspx.cs">
+      <DependentUpon>Web_Edit1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Edit1.aspx.designer.cs">
+      <DependentUpon>Web_Edit1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Feedback.aspx.cs">
+      <DependentUpon>Web_Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Feedback.aspx.designer.cs">
+      <DependentUpon>Web_Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_History.aspx.cs">
+      <DependentUpon>Web_History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_History.aspx.designer.cs">
+      <DependentUpon>Web_History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Gadgets.aspx.cs">
+      <DependentUpon>Gadgets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Gadgets.aspx.designer.cs">
+      <DependentUpon>Gadgets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Sign_in.aspx.cs">
+      <DependentUpon>Sign_in.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Sign_in.aspx.designer.cs">
+      <DependentUpon>Sign_in.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_AC.aspx.cs">
+      <DependentUpon>Web_AC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_AC.aspx.designer.cs">
+      <DependentUpon>Web_AC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Amplifier.aspx.cs">
+      <DependentUpon>Web_Amplifier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Amplifier.aspx.designer.cs">
+      <DependentUpon>Web_Amplifier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Blender.aspx.cs">
+      <DependentUpon>Web_Blender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Blender.aspx.designer.cs">
+      <DependentUpon>Web_Blender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Bluetooth.aspx.cs">
+      <DependentUpon>Web_Bluetooth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Bluetooth.aspx.designer.cs">
+      <DependentUpon>Web_Bluetooth.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Camera.aspx.cs">
+      <DependentUpon>Web_Camera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Camera.aspx.designer.cs">
+      <DependentUpon>Web_Camera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_CCTV.aspx.cs">
+      <DependentUpon>Web_CCTV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_CCTV.aspx.designer.cs">
+      <DependentUpon>Web_CCTV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Cooker.aspx.cs">
+      <DependentUpon>Web_Cooker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Cooker.aspx.designer.cs">
+      <DependentUpon>Web_Cooker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Cooler.aspx.cs">
+      <DependentUpon>Web_Cooler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Cooler.aspx.designer.cs">
+      <DependentUpon>Web_Cooler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_CPU.aspx.cs">
+      <DependentUpon>Web_CPU.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_CPU.aspx.designer.cs">
+      <DependentUpon>Web_CPU.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Desktop.aspx.cs">
+      <DependentUpon>Web_Desktop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Desktop.aspx.designer.cs">
+      <DependentUpon>Web_Desktop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Edit.aspx.cs">
+      <DependentUpon>Web_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Edit.aspx.designer.cs">
+      <DependentUpon>Web_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Heater.aspx.cs">
+      <DependentUpon>Web_Heater.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Heater.aspx.designer.cs">
+      <DependentUpon>Web_Heater.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Help.aspx.cs">
+      <DependentUpon>Web_Help.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Help.aspx.designer.cs">
+      <DependentUpon>Web_Help.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_HomeTheater.aspx.cs">
+      <DependentUpon>Web_HomeTheater.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_HomeTheater.aspx.designer.cs">
+      <DependentUpon>Web_HomeTheater.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Inverter.aspx.cs">
+      <DependentUpon>Web_Inverter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Inverter.aspx.designer.cs">
+      <DependentUpon>Web_Inverter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Iron.aspx.cs">
+      <DependentUpon>Web_Iron.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Iron.aspx.designer.cs">
+      <DependentUpon>Web_Iron.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Lamination.aspx.cs">
+      <DependentUpon>Web_Lamination.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Lamination.aspx.designer.cs">
+      <DependentUpon>Web_Lamination.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Laptop.aspx.cs">
+      <DependentUpon>Web_Laptop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Laptop.aspx.designer.cs">
+      <DependentUpon>Web_Laptop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Machine.aspx.cs">
+      <DependentUpon>Web_Machine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Machine.aspx.designer.cs">
+      <DependentUpon>Web_Machine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Mobile.aspx.cs">
+      <DependentUpon>Web_Mobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Mobile.aspx.designer.cs">
+      <DependentUpon>Web_Mobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Monitor.aspx.cs">
+      <DependentUpon>Web_Monitor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Monitor.aspx.designer.cs">
+      <DependentUpon>Web_Monitor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Oven.aspx.cs">
+      <DependentUpon>Web_Oven.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Oven.aspx.designer.cs">
+      <DependentUpon>Web_Oven.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Printer.aspx.cs">
+      <DependentUpon>Web_Printer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Printer.aspx.designer.cs">
+      <DependentUpon>Web_Printer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Projector.aspx.cs">
+      <DependentUpon>Web_Projector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Projector.aspx.designer.cs">
+      <DependentUpon>Web_Projector.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Refrigerator.aspx.cs">
+      <DependentUpon>Web_Refrigerator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Refrigerator.aspx.designer.cs">
+      <DependentUpon>Web_Refrigerator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Router.aspx.cs">
+      <DependentUpon>Web_Router.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Router.aspx.designer.cs">
+      <DependentUpon>Web_Router.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_STB.aspx.cs">
+      <DependentUpon>Web_STB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_STB.aspx.designer.cs">
+      <DependentUpon>Web_STB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Tab.aspx.cs">
+      <DependentUpon>Web_Tab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Tab.aspx.designer.cs">
+      <DependentUpon>Web_Tab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_TV.aspx.cs">
+      <DependentUpon>Web_TV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_TV.aspx.designer.cs">
+      <DependentUpon>Web_TV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Xerox.aspx.cs">
+      <DependentUpon>Web_Xerox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Pages\Web_Xerox.aspx.designer.cs">
+      <DependentUpon>Web_Xerox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Report.aspx.cs">
+      <DependentUpon>Web_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Report.aspx.designer.cs">
+      <DependentUpon>Web_Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Service.aspx.cs">
+      <DependentUpon>Web_Service.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Service.aspx.designer.cs">
+      <DependentUpon>Web_Service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_SiteMap.aspx.cs">
+      <DependentUpon>Web_SiteMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_SiteMap.aspx.designer.cs">
+      <DependentUpon>Web_SiteMap.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54658</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
